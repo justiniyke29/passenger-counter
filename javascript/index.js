@@ -3,10 +3,12 @@ let countEl = document.getElementById("count-el")
 let count=0
 function increment(){
     count+=1
-    countEl.innerText=count
+    countEl.textContent=count
 }
 function save(){
-    newEntries= count+= "-"
-    saveEl.innerText=newEntries
-console.log(count)
+   let newEntries= count + " - "
+    saveEl.textContent += newEntries
+    countEl.textContent=0
+    count=0
 }
+//canged from .innerText to .textContent to view some elements hidden. dated 13th june 2022 by justiniyke
