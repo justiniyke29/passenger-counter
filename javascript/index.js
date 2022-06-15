@@ -11,4 +11,5 @@ function save(){
     countEl.textContent=0
     count=0
 }
+console.log("hello, you are welcome to my passenger counter app!!! ")
 //canged from .innerText to .textContent to view some elements hidden. dated 13th june 2022 by justiniyke
